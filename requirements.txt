@@ -1,0 +1,7 @@
+#pyinstaller --onefile --add-data "datos\plantilla.docx;datos" --add-data "datos\Alumnos.xlsx;datos" app.py
+#pyinstaller -F -w -i images.ico app.py
+#pyinstaller
+Pillow
+docxtpl
+pandas==2.2.3
+openpyxl==3.1.5
